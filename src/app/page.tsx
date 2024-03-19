@@ -1,5 +1,5 @@
-import styles from "./page.module.css";
-import { HelloWorld } from "@root/components/HelloWorld";
+import styles from './page.module.css';
+import { HelloWorld } from '@root/components/HelloWorld';
 
 export default function Home() {
   return (
