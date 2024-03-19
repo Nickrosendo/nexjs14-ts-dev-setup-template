@@ -19,7 +19,7 @@ module.exports = {
   testPathIgnorePatterns: [
     '<rootDir>/node_modules/',
     '<rootDir>/.next/',
-    '<rootDir>/cypress/',
+    '<rootDir>/e2e-tests/',
   ],
   testEnvironment: 'jsdom',
   transform: {
