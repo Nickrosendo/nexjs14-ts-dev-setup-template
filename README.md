@@ -1,4 +1,3 @@
-
 # Next.js TypeScript Template
 
 This is a template repository for kickstarting Next.js applications with TypeScript. It provides a structured setup to accelerate development and maintainability.
@@ -38,13 +37,14 @@ yarn install
 ```
 
 ## After installing dependencies, you can start the development server:
+
 ```bash
 npm run dev
 # or
 yarn dev
 ```
-This will start the development server at http://localhost:3000.
 
+This will start the development server at http://localhost:3000.
 
 ## Commands
 
@@ -55,7 +55,6 @@ This will start the development server at http://localhost:3000.
     lint: Lint TypeScript files.
     lint:fix: Lint TypeScript files and attempt to fix linting errors.
     format: Format TypeScript files using Prettier.
-
 
 Feel free to customize this structure based on your project's needs.
 
