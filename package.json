@@ -14,7 +14,7 @@
     "test:coverage": "jest --coverage",
     "test:ci": "jest --ci",
     "standardize": "npm run lint && npm run format",
-    "format": "prettier --write \"{src,__tests__}/**/*.{js,jsx,tsx,ts,json,md}\"",
+    "format": "prettier --write --ignore-path .gitignore .",
     "format-check": "prettier --check --ignore-path .gitignore .",
     "prepare": "husky",
     "pre-commit": "lint-staged",
