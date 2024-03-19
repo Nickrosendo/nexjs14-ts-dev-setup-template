@@ -6,7 +6,8 @@ This is a template repository for kickstarting Next.js applications with TypeScr
 
 - **Next.js**: Utilize the power of Next.js for server-side rendering, static site generation, and more.
 - **TypeScript**: Enjoy the benefits of static typing with TypeScript.
-- **Pre-configured**: Comes with pre-configured settings for TypeScript, Jest, Github Actions, ESLint, Prettier, and Husky.
+- **Testing**: Working setup for running unit tests with jest and playwright for e2e tests.
+- **Pre-configured**: Comes with pre-configured settings for TypeScript, Github Actions, ESLint, Prettier, and Husky.
 - **Routing**: Easy-to-use routing with Next.js's built-in routing system.
 - **API Routes**: Create API endpoints with ease using Next.js API routes.
 - **Environment Variables**: Support for environment variables management.
@@ -50,11 +51,16 @@ This will start the development server at http://localhost:3000.
 
     dev: Start the development server.
     build: Build the application for production.
+    test:all: Run all tests (unit and e2e).
+    test:e2e: Run e2e tests with playwright.
     test: Run unit tests.
+    test:coverage: Run unit tests showing their coverage.
     start: Start the production server.
     lint: Lint TypeScript files.
     lint:fix: Lint TypeScript files and attempt to fix linting errors.
     format: Format TypeScript files using Prettier.
+    format-check: Check TypeScript files using Prettier.
+    standardize:  Run lint validations and formatting using Prettier.
 
 Feel free to customize this structure based on your project's needs.
 
