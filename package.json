@@ -11,7 +11,7 @@
     "test:e2e": "npx playwright test",
     "test:e2e:debug": "npx playwright --debug",
     "test:e2e:dev": "npx playwright test --ui",
-    "test:all": "npm run test:coverage && npm run test:e2e:headless",
+    "test:all": "npm run test:coverage && npm run test:e2e",
     "test:coverage": "jest --coverage",
     "test:ci": "jest --ci",
     "standardize": "npm run lint && npm run format",
