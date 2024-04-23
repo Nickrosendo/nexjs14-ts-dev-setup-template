@@ -1,10 +1,7 @@
-/**
- * @jest-environment jsdom
- */
-
+import '@testing-library/jest-dom';
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { HelloWorld } from '@root/components/HelloWorld';
+import { HelloWorld } from '@root/src/components/HelloWorld';
 
 describe('HelloWorld component tests', () => {
   it('should render without crashing', () => {

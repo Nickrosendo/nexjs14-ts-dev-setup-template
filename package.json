@@ -17,7 +17,7 @@
     "standardize": "npm run lint && npm run format",
     "format": "prettier --write --ignore-path .gitignore .",
     "format-check": "prettier --check --ignore-path .gitignore .",
-    "prepare": "husky",
+    "prepare": "husky && panda codegen && npx playwright install",
     "pre-commit": "lint-staged",
     "pre-push": "npm run test:all"
   },
@@ -27,9 +27,11 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@pandacss/dev": "^0.37.2",
     "@playwright/test": "^1.42.1",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
+    "@types/jest": "^29.5.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

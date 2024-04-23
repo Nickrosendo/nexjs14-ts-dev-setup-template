@@ -12,7 +12,7 @@ module.exports = {
 		https://jestjs.io/docs/webpack#handling-static-assets */
     '^.+\\.(jpg|jpeg|png|gif|webp|svg)$': '<rootDir>/__mocks__/file-mock.js',
 
-    '^@root/(.*)$': '<rootDir>/src/$1',
+    '^@root/(.*)$': '<rootDir>/$1',
 
     'next/router': '<rootDir>/__mocks__/next-router-mock.js',
   },
