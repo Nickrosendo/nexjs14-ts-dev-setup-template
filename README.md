@@ -6,6 +6,7 @@ This is a template repository for kickstarting Next.js applications with TypeScr
 
 - **Next.js**: Utilize the power of Next.js for server-side rendering, static site generation, and more.
 - **TypeScript**: Enjoy the benefits of static typing with TypeScript.
+- **Styling**: Supports zero runtime CSS-in-js with [panda-css](https://panda-css.com/).
 - **Testing**: Working setup for running unit tests with jest and playwright for e2e tests.
 - **Pre-configured**: Comes with pre-configured settings for TypeScript, Github Actions, ESLint, Prettier, and Husky.
 - **Routing**: Easy-to-use routing with Next.js's built-in routing system.
